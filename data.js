@@ -10,20 +10,6 @@ async function demo() {
 
 alert('Before exports');
 
-export class ItemCard {
-    constructor(name, description, item_type, stats
-        , top, bottom, left, right) {
-        this.name = name;
-        this.description = description;
-        this.item_type = item_type;
-        this.stats = stats;
-        this.top = top;
-        this.bottom = bottom;
-        this.left = left;
-        this.right = right;
-    }
-}
-
 export let data_list = [
     {
         'Name': 'Scrap Shield',
@@ -127,7 +113,7 @@ export let data_list = [
         'Resources': [{ name: 'Bone', quantity: '1' }, { name: 'Leather', quantity: '1' }],
         'Required': 'Ammonia'
     }
-]
+];
 
 alert('After exports');
 demo();
