@@ -127,7 +127,7 @@ export let data_list = [
         'Resources': [{ name: 'Bone', quantity: '1' }, { name: 'Leather', quantity: '1' }],
         'Required': 'Ammonia'
     }
-];
+]
 
 alert('After exports');
 demo();
