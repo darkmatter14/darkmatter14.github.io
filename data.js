@@ -8,7 +8,7 @@ async function demo() {
     console.log("Two seconds later");
 }
 
-demo();
+alert('Before exports');
 
 export class ItemCard {
     constructor(name, description, item_type, stats
@@ -128,3 +128,6 @@ export let data_list = [
         'Required': 'Ammonia'
     }
 ];
+
+alert('After exports');
+demo();
